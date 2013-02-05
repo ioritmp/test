@@ -1,4 +1,3 @@
-def fib n
-  return n if n < 2
-  fib(n-2)+fib(n-1)
+def f n
+  n < 2 ? n : f(n-2)+f(n-1)
 end
